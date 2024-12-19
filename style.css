@@ -176,26 +176,43 @@ a{
     
 }
 
+/* M-CArds */
 
-/* PORTFOLIO */
-
-.containerbg{
-    background: url(portfoliobg.jpg) center center no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+.m-cards-inner{
+    display: flex;
 }
 
-.about{
-    width: 100%;
-    height: 100%;
-    background-color: #090909;
-    border-top: 15px;
-    color: white;
+.m-card{
+    display:flex;
+    flex-direction: column;
+    padding: 1em;
+    color: #434343;
+    transition: .2s all;
+    border-radius: 18px;
 }
 
-.ab-inner{
-    width: 1100px;
-    margin: 0 auto;
+.m-card:hover{
+    background-color: #0a0a0a;
+}
+
+.mc-img{
+    height: 180px;
+    width: 180px;
+    background: #434343;
+    border-radius: 12px;
+}
+
+.mc-inner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+.mc-name{
+    font-size: 18px;
+    color: #FFCC9F;
+    font-weight: 500;
 }
 
